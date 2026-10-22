@@ -75,7 +75,6 @@ nav a:hover{color:var(--agua)}
 .hero-art .cap a{color:var(--ink);text-decoration:none;border-bottom:2px solid var(--flor-tint)}
 .hero-art .cap a:hover{border-bottom-color:var(--flor)}
 .hero-art .disc{position:relative;width:min(100%,380px);aspect-ratio:1;border-radius:50%;background:var(--agua-tint);display:flex;align-items:center;justify-content:center}
-.hero-art .disc::after{content:"";position:absolute;inset:-18px;border-radius:50%;border:2px dashed var(--line)}
 .hero-art svg{width:78%;height:78%}
 
 /* cards */
@@ -228,9 +227,9 @@ footer{background:var(--surface-100);border-top:1px solid var(--line);padding:va
     <div>
       <p class="kicker" data-i="hero_kicker">Procesos, Automatizaciones y Bases de Marca</p>
       <h1 class="display"><span data-i="hero_h1a">Alma de marca.</span> <em data-i="hero_h1b">Estructura de sistema.</em></h1>
-      <p class="lead" data-i="hero_lead">Makhana ayuda a negocios pequeños y medianos, y a quienes emprenden, a crecer de forma orgánica y sostenida con procesos claros, automatizaciones y bases digitales sólidas. Sin jerga y sin que tengas que volverte experto en tecnología.</p>
+      <p class="lead" data-i="hero_lead">Tu proyecto empezó con una idea y mucho esfuerzo. Lo escuchamos, lo entendemos y le damos la estructura para crecer, sin que tengas que ser experto en tecnología.</p>
       <div class="row">
-        <a class="btn btn-primary" href="#contacto" data-i="hero_cta1">Agenda una llamada de 15 minutos</a>
+        <a class="btn btn-primary" href="#contacto" data-i="hero_cta1">Conversemos 15 minutos</a>
         <a class="btn btn-ghost" href="#servicios" data-i="hero_cta2">Ver servicios</a>
       </div>
     </div>
@@ -251,6 +250,20 @@ footer{background:var(--surface-100);border-top:1px solid var(--line);padding:va
       <div class="card"><h3 data-i="prob1_t">Todo se hace a mano</h3><p data-i="prob1_d">Cobros, recordatorios y seguimientos que consumen horas cada semana.</p></div>
       <div class="card"><h3 data-i="prob2_t">Nada está conectado</h3><p data-i="prob2_d">Hojas de cálculo, mensajes y papeles que nadie logra mantener al día.</p></div>
       <div class="card"><h3 data-i="prob3_t">La marca no se ve como el negocio</h3><p data-i="prob3_d">Una identidad y una presencia digital que no reflejan lo que de verdad ofreces.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="founder" id="fundadora" hidden>
+  <div class="divider" aria-hidden="true"><svg viewBox="0 0 1120 56"><use href="#circ"/></svg></div>
+  <div class="wrap founder-grid">
+    <div class="ph"><img src="claudia.jpg" alt="Claudia Tosta Vargas, fundadora de Makhana" onload="this.closest('section').hidden=false"></div>
+    <div>
+      <p class="kicker" data-i="fund_kicker">Quién está detrás</p>
+      <h2 class="display" data-i="fund_title">Hola, soy Claudia</h2>
+      <p data-i="fund_p1">Me gusta conocer a las personas, escuchar sus historias y ayudarles a convertir un sueño en un proyecto con estructura. Me conecto profundamente con cada proyecto y trato de ver hasta dónde puede llegar si se desarrolla bien.</p>
+      <p data-i="fund_p2">Vengo de más de 15 años en tecnología, y hoy pongo esa experiencia al servicio de proyectos que quieren crecer de forma orgánica. Si tienes uno, me encantará conocerlo.</p>
+      <a class="btn btn-ghost" href="#contacto" data-i="fund_cta">Conversemos</a>
     </div>
   </div>
 </section>
@@ -325,24 +338,10 @@ footer{background:var(--surface-100);border-top:1px solid var(--line);padding:va
     </ol>
     <h3 class="sub" data-i="proj_title">Proyectos en los que ya trabajamos</h3>
     <div class="grid4">
-      <div class="card"><span class="chip cat" data-i="cat1">Marca · Sitio web</span><h3>MITEBO</h3><p data-i="p1_d">Rebranding y sitio web para una escuela de ciclismo de montaña en Venezuela.</p></div>
       <div class="card"><span class="chip cat" data-i="cat2">Sitio web · Cobros · Automatización</span><h3>Mora Bike School</h3><p data-i="p2_d">Sitio web, control de cobros y automatización para una escuela infantil de ciclismo de montaña.</p></div>
-      <div class="card"><span class="chip cat" data-i="cat3">Sitio web · Procesos</span><h3>Aléa — Private Wellness &amp; Life Coaching</h3><p data-i="p3_d">Sitio web, procesos y automatizaciones para una marca de coaching de bienestar.</p></div>
+      <div class="card"><span class="chip cat" data-i="cat3">Sitio web · Procesos</span><h3 data-i="p3_t">Coach de bienestar y estilo de vida</h3><p data-i="p3_d">Sitio web, procesos y automatizaciones para una marca personal de coaching.</p></div>
       <div class="card"><span class="chip cat" data-i="cat4">Marca · Sitio web</span><h3>Paseíto con Dani</h3><p data-i="p4_d">Brand book y sitio web para el lanzamiento de un canal de viajes en YouTube.</p></div>
-    </div>
-  </div>
-</section>
-
-<section class="founder" id="fundadora" hidden>
-  <div class="divider" aria-hidden="true"><svg viewBox="0 0 1120 56"><use href="#circ"/></svg></div>
-  <div class="wrap founder-grid">
-    <div class="ph"><img src="claudia.jpg" alt="Claudia Tosta Vargas, fundadora de Makhana" onload="this.closest('section').hidden=false"></div>
-    <div>
-      <p class="kicker" data-i="fund_kicker">Quién está detrás</p>
-      <h2 class="display" data-i="fund_title">Hola, soy Claudia</h2>
-      <p data-i="fund_p1">Me gusta conocer a las personas, escuchar sus historias y ayudarles a convertir un sueño en un proyecto con estructura. Me conecto profundamente con cada proyecto y trato de ver hasta dónde puede llegar si se desarrolla bien.</p>
-      <p data-i="fund_p2">Vengo de más de 15 años en tecnología, y hoy pongo esa experiencia al servicio de proyectos que quieren crecer de forma orgánica. Si tienes uno, me encantará conocerlo.</p>
-      <a class="btn btn-ghost" href="#contacto" data-i="fund_cta">Conversemos</a>
+      <div class="card"><span class="chip cat" data-i="cat1">Marca · Sitio web</span><h3>MITEBO</h3><p data-i="p1_d">Rebranding y sitio web para una escuela de ciclismo de montaña en Venezuela.</p></div>
     </div>
   </div>
 </section>
@@ -380,8 +379,8 @@ footer{background:var(--surface-100);border-top:1px solid var(--line);padding:va
       nav_services:"Servicios", nav_how:"Cómo trabajamos", nav_story:"Nuestro nombre", nav_proof:"Experiencia", nav_contact:"Contacto",
       hero_kicker:"Procesos, Automatizaciones y Bases de Marca",
       hero_h1a:"Alma de marca.", hero_h1b:"Estructura de sistema.",
-      hero_lead:"Makhana ayuda a negocios pequeños y medianos, y a quienes emprenden, a crecer de forma orgánica y sostenida con procesos claros, automatizaciones y bases digitales sólidas. Sin jerga y sin que tengas que volverte experto en tecnología.",
-      hero_cta1:"Agenda una llamada de 15 minutos", hero_cta2:"Ver servicios",
+      hero_lead:"Tu proyecto empezó con una idea y mucho esfuerzo. Lo escuchamos, lo entendemos y le damos la estructura para crecer, sin que tengas que ser experto en tecnología.",
+      hero_cta1:"Conversemos 15 minutos", hero_cta2:"Ver servicios",
       hero_cap:"Makhana: la semilla",
       prob_kicker:"El punto de partida", prob_title:"Tu negocio ya tiene alma. Le falta estructura.",
       prob_lead:"Muchos emprendedores y dueños de negocio ya hicieron lo más difícil: empezar. Pero su crecimiento se frena por tareas manuales, información dispersa y herramientas que nadie les explicó. No es falta de capacidad: es falta de una explicación clara.",
@@ -409,7 +408,7 @@ footer{background:var(--surface-100);border-top:1px solid var(--line);padding:va
       proj_title:"Proyectos en los que ya trabajamos",
       cat1:"Marca · Sitio web", p1_d:"Rebranding y sitio web para una escuela de ciclismo de montaña en Venezuela.",
       cat2:"Sitio web · Cobros · Automatización", p2_d:"Sitio web, control de cobros y automatización para una escuela infantil de ciclismo de montaña.",
-      cat3:"Sitio web · Procesos", p3_d:"Sitio web, procesos y automatizaciones para una marca de coaching de bienestar.",
+      cat3:"Sitio web · Procesos", p3_t:"Coach de bienestar y estilo de vida", p3_d:"Sitio web, procesos y automatizaciones para una marca personal de coaching.",
       cat4:"Marca · Sitio web", p4_d:"Brand book y sitio web para el lanzamiento de un canal de viajes en YouTube.",
             fund_kicker:"Quién está detrás", fund_title:"Hola, soy Claudia",
       fund_p1:"Me gusta conocer a las personas, escuchar sus historias y ayudarles a convertir un sueño en un proyecto con estructura. Me conecto profundamente con cada proyecto y trato de ver hasta dónde puede llegar si se desarrolla bien.",
@@ -427,8 +426,8 @@ footer{background:var(--surface-100);border-top:1px solid var(--line);padding:va
       nav_services:"Services", nav_how:"How we work", nav_story:"Our name", nav_proof:"Experience", nav_contact:"Contact",
       hero_kicker:"Process, Automation & Brand Foundations",
       hero_h1a:"Brand with soul.", hero_h1b:"Systems with structure.",
-      hero_lead:"Makhana helps small and mid-size businesses, and those just starting out, grow organically and sustainably with clear processes, automation and solid digital foundations. No jargon, and no need to become a tech expert.",
-      hero_cta1:"Book a 15-minute call", hero_cta2:"See services",
+      hero_lead:"Your project began with an idea and a lot of effort. We listen to it, understand it, and give it the structure to grow, without you having to be a tech expert.",
+      hero_cta1:"Let's talk for 15 minutes", hero_cta2:"See services",
       hero_cap:"Makhana: the seed",
       prob_kicker:"Where it starts", prob_title:"Your business already has soul. It needs structure.",
       prob_lead:"Many founders and business owners have already done the hardest part: starting. But growth stalls because of manual tasks, scattered information and tools nobody explained. It is not a lack of ability: it is a lack of a clear explanation.",
@@ -456,7 +455,7 @@ footer{background:var(--surface-100);border-top:1px solid var(--line);padding:va
       proj_title:"Projects we are already working on",
       cat1:"Brand · Website", p1_d:"Rebranding and website for a mountain bike school in Venezuela.",
       cat2:"Website · Billing · Automation", p2_d:"Website, billing control and automation for a children's mountain bike school.",
-      cat3:"Website · Processes", p3_d:"Website, processes and automation for a wellness coaching brand.",
+      cat3:"Website · Processes", p3_t:"Wellness and lifestyle coach", p3_d:"Website, processes and automation for a personal coaching brand.",
       cat4:"Brand · Website", p4_d:"Brand book and website for the launch of a travel channel on YouTube.",
             fund_kicker:"Who is behind it", fund_title:"Hi, I am Claudia",
       fund_p1:"I like getting to know people, listening to their stories and helping them turn a dream into a project with structure. I connect deeply with every project and try to see how far it can go if it is developed well.",
